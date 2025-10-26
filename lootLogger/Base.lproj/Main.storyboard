@@ -82,6 +82,11 @@
                                         <constraint firstItem="8vk-Fl-LNR" firstAttribute="leading" secondItem="NgL-6i-bpw" secondAttribute="leading" id="t1f-ma-U5I"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="NgL-6i-bpw" id="Mbh-fQ-PeL"/>
+                                    <outlet property="serialNumberLabel" destination="8vk-Fl-LNR" id="MhO-8a-Ut4"/>
+                                    <outlet property="valueLabel" destination="QE5-L3-D8e" id="rqk-Il-iZZ"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
